@@ -137,7 +137,7 @@ section {
 /*--------MEDIA---------*/
 @media screen and (min-width: 900px) {
     html {
-        scroll-padding-top: 30%;
+        scroll-padding-top: 37%;
     }
 
     body {
