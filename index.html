@@ -21,11 +21,11 @@
                     <div class="container_menu callapsible ">
                         <i class="menu_icon fa-solid fa-bars"></i>
                     <ul class="menu_items callapsible_content">
-                        <li><a class="menu_link" href="">Plan dnia</a></li>
-                        <li><a class="menu_link" href="">Ślub</a></li>
-                        <li><a class="menu_link" href="">Wesele</a></li>
-                        <li><a class="menu_link" href="">Transport</a></li>
-                        <li><a class="menu_link" href="">Prezenty</a></li>
+                        <li><a class="menu_link" href="#schedule">Plan dnia</a></li>
+                        <li><a class="menu_link" href="#church">Ślub</a></li>
+                        <li><a class="menu_link" href="#wedding">Wesele</a></li>
+                        <li><a class="menu_link" href="#transport">Transport</a></li>
+                        <li><a class="menu_link" href="#gifts">Prezenty</a></li>
                         <li class="menu_last_element"><a class="menu_link" href="">O nas</a></li>
                     </ul>
                 </div>
@@ -36,9 +36,9 @@
         <section>
             <img class="main_photo" src="./src/photo_z.jpg" alt="Tu powinno być nasze zdjęcie">
         </section>        
-        <section>
-            <h4>Plan dnia</h4>
-            <div class="schedule">
+        <section id="schedule">
+            <h3>Plan dnia</h3>
+            <div class="schedule section">
                 <ul>
                     <li>14:00 odjazd autokaru jeśli wybrałaś/wybrałeś nasz transport</li>
                     <li>15:00 ŚLUB</li>
@@ -47,19 +47,19 @@
                 </ul>
             </div>
         </section>
-        <section>
-            <h4>Ślub</h4>
-            <div class="church">
+        <section id="church">
+            <h3>Ślub</h3>
+            <div class="church section">
                 <p>Kościół w Ceradzu Kościelnym</p>
                 <br>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2432.277308036018!2d16.58978616534694!3d52.43789120006416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470439072608909b%3A0x32f18ddfaffb89c8!2sParafia%20%C5%9Bw%20Stanis%C5%82awa%20BM%20w%20Ceradzu%20Ko%C5%9Bcielnym!5e0!3m2!1spl!2spl!4v1678269806108!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <br>
-                <img src="/src/church_photo.jpg" alt="Kościół">
+                <img class="main_photo" src="./src/church_photo.jpg" alt="Kościół">
             </div>
         </section>
-        <section>
-            <h4>Miejsce wesela</h4>
-            <div class="wedding">
+        <section id="wedding">
+            <h3>Miejsce wesela</h3>
+            <div class="wedding section">
                 <p>Dworek Grzebienisko</p>
                 <p>Przy dworku znajduje się parking</p>
                 <br>
@@ -68,9 +68,9 @@
                 <img src="/src/wedding_photo.jpg" alt="Kościół">
             </div>
         </section>
-        <section>
-            <h4>Transport</h4>
-            <div class="transport">
+        <section class="section" id="transport">
+            <h3>Transport</h3>
+            <div class="transport" >
                 <p>Zorganizowaliśmy autokar, który dowiezie gości do kościoła i następnie na miejsce wesela.
                    Jeśli ktoś jest chętny na taką opcję to prosimy o informację.
                    Odjazd o 14:00, autokar będzie czekał przy stadionie.
@@ -78,9 +78,9 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19478.68136338802!2d16.854724884725957!3d52.391538306551546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4704451d8e5a5289%3A0x7fa944dd86b2bf30!2sStadion%20Pozna%C5%84!5e0!3m2!1spl!2spl!4v1678284417239!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
-        <section>
-            <h4>Prezenty</h4>
-            <div class="gifts">
+        <section id="gifts">
+            <h3>Prezenty</h3>
+            <div class="gifts section">
                 <p>Zamiast kwiatów chcemy Was prosić o wsparcie kociej fundacji Na Ratunek Bezdomniakom.
                 Fundacja ma konkretne potrzeby i nie wszystkie karmy są odpowiednie dla chorych kociaków,
                 dlatego poniżej wrzucamy listę karm, które można kupić.
