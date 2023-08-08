@@ -3,31 +3,38 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Aguafina+Script&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Akaya+Kanadaka&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Berkshire+Swash&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <title>Ślub Beaty i Łukasza</title>    
 </head>
 <body>
-    <div>
+    
         <header>
-            <div>
+            <div class="main_header">
                 <h1>Beata i Łukasz</h1>
                 <h2>26.08.2023</h2>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="">Plan dnia</a></li>
-                    <li><a href="">Ślub</a></li>
-                    <li><a href="">Wesele</a></li>
-                    <li><a href="">Transport</a></li>
-                    <li><a href="">Prezenty</a></li>
-                    <li><a href="">O nas</a></li>
-                </ul>
+            <nav class="menu">
+                    <div class="container_menu callapsible ">
+                        <i class="menu_icon fa-solid fa-bars"></i>
+                    <ul class="menu_items callapsible_content">
+                        <li><a class="menu_link" href="">Plan dnia</a></li>
+                        <li><a class="menu_link" href="">Ślub</a></li>
+                        <li><a class="menu_link" href="">Wesele</a></li>
+                        <li><a class="menu_link" href="">Transport</a></li>
+                        <li><a class="menu_link" href="">Prezenty</a></li>
+                        <li class="menu_last_element"><a class="menu_link" href="">O nas</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
-    </div>
+    
     <main>
         <section>
-            <img src="./src/main_photo.jpeg" alt="Tu powinno być nasze zdjęcie">
+            <img class="main_photo" src="./src/photo_z.jpg" alt="Tu powinno być nasze zdjęcie">
         </section>        
         <section>
             <h4>Plan dnia</h4>
@@ -96,5 +103,6 @@
         </section>
     </main>
     
+    <script src="js/js.js"></script>
 </body>
 </html>
