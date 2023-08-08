@@ -198,4 +198,11 @@ section {
         text-align: center;
         padding: 2rem 2rem;
     }
+
+    .menu_list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 2rem 0;
+    }
 }
